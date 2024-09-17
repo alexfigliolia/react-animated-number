@@ -1,0 +1,33 @@
+.number-animation {
+  --transition-duration: 1s;
+  --transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.number-animation .columns {
+  top: 50%;
+  left: 0;
+  width: auto;
+  height: auto;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  translate: 0 -50%;
+}
+
+.number-animation .column-container {
+  position: relative;
+}
+
+.number-animation .column {
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  transition: translate var(--transition-duration) var(--transition-timing-function), width 0.5s;
+}
+
+.number-animation .dummy {
+  opacity: 0;
+}
