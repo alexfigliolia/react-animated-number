@@ -1,6 +1,5 @@
 # Animated Number
 A react component that animates between numeric values! 
 
-<video src="https://rawcdn.githack.com/alexfigliolia/react-animated-number/b17419cc894101a54c9cab2fa1c42a21e05d9098/media/demo.mp4" width="auto" height="auto"></video>
-
+<video src="https://github.com/user-attachments/assets/cf3777b5-9025-4576-878b-971312ef1e6b" width="auto" height="auto"></video>
 
