@@ -1,6 +1,6 @@
 {
   "name": "@figliolia/react-animated-number",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A react component that animates between numeric values",
   "author": "Alex Figliolia",
   "scripts": {
@@ -30,11 +30,11 @@
   ],
   "dependencies": {
     "@figliolia/classnames": "^1.0.1",
-    "@figliolia/react-hooks": "^1.2.0"
+    "@figliolia/react-hooks": "^1.2.5"
   },
   "peerDependencies": {
     "@figliolia/classnames": "^1.0.1",
-    "@figliolia/react-hooks": "^1.2.0",
+    "@figliolia/react-hooks": "^1.2.5",
     "react": "^18.3.1"
   },
   "devDependencies": {
